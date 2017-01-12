@@ -86,7 +86,9 @@ header {
 }
 
 article {
-
+	width: 100%;
+	height: 500px;
+	background-color: whitesmoke;
 }
 
 #asso {
@@ -94,5 +96,7 @@ article {
 }
 
 footer {
-
+	width: 100%;
+	height: 200px;
+	background-color: black;
 }
