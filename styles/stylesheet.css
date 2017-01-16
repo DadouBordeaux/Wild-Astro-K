@@ -41,7 +41,8 @@ p {
 }
 
 button {
-	opacity: 0.5;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -109,26 +110,27 @@ header {
 #article-asso{
 	display: flex;
 	background-image: url('../ressources/photos/milky-way-1049493_1920.jpg');
+	background-size: 800px, 800px;
+}
+
+#barre-milieu {
+	height: auto;
+	width: 5px;
+	background-color: rgba(255, 255, 255, 1);
+	margin: 5px;
 }
 
 #latest-posts {
 	width: 100%;
 }
 
-#titlelastpost {
+#titlelastpost, #resume {
 	display: inline-block;
 	padding: 2px;
-	background-color: black;
-	opacity: 0.7;
-
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
 }
-#resume {
 
-	display: inline-block;
-	padding: 2px;
-	background-color: black;
-	opacity: 0.7;
-}
 
 article {
 
