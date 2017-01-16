@@ -82,12 +82,19 @@ header {
 	height: 285px;
 }
 
+.slider {
+	padding: 0;
+	margin: 0;
+}
+
 .slider li {
-	top: 0;
-	left: 0;
-	width: 45%;
 	display: none;
-	position: absolute;
+	padding: 0;
+	margin: 0;
+}
+
+.slider img {
+	width: 100%;
 }
 
 #content {

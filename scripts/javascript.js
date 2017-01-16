@@ -26,5 +26,5 @@ $interval = setInterval(
 		slides().eq($i + 1).fadeIn($transition_time);
 		slides().eq($i + 1).addClass('active');
 	}
-	, $transition_time + $time_between_slides;
+	, $transition_time + $time_between_slides
 );
