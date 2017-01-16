@@ -95,6 +95,7 @@ header {
 
 .slider img {
 	width: 100%;
+	min-height: 285px;
 }
 
 #content {
