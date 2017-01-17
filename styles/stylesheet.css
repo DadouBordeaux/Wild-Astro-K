@@ -1,11 +1,12 @@
 /*============Everybody===========*/
 @font-face {
 	font-family: "Lucida Grande";
-	src: url("../ressources/lucidagrande.ttf");
+	src: url("../Fonts/lucidagrande.ttf");
 }
 
 #bloc_page {
 	width: 80%;
+	max-width: 1200px;
 	margin:auto;
 }
 
@@ -179,25 +180,17 @@ header {
 
 /*============Damien===========*/
 
-
-#content {
-}
-#separation-slider {
-	background-color: white;
-	height: 30px;
-	width: 50px;
-}
-
 #article-asso {
 	display: flex;
 	background-image: url('../ressources/photos/milky-way-1049493_1920.jpg');
-	background-size: 800px, 800px;
+	background-size: 1300px, 800px;
 	background-position: bottom;
-
+	min-height: 600px;
 }
 
 #barre-milieu {
-	height: auto;
+	align-self: center;
+	height: 400px;
 	width: 5px;
 	background-color: rgba(255, 255, 255, 1);
 	margin: 5px;
@@ -207,16 +200,46 @@ header {
 	width: 100%;
 }
 
-#titlelastpost, #resume {
-	display: inline-block;
+#titlelastpost, #resume, #resume-asso {
 	padding: 2px;
-	background-color: rgba(0, 0, 0, 0.75);
-	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 2px;
 }
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#titlelastpost {
+	margin-top: 10px;
+	text-align: center;
+
+}
+
 #resume {
-
-
+	margin-bottom: 60px;
+	align-self: flex-end;
 }
+
+#resume-asso {
+	margin: 10px;
+	padding: 10px;
+	padding-left: 60px;
+	padding-right: 60px;
+	text-align: justify;
+}
+
+#resume-asso p {
+	margin-top: 30px;
+	text-align: justify;
+}
+
+#resume-asso button {
+	margin-top: 50px;
+}
+
 
 article {
 
