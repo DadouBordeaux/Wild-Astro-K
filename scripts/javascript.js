@@ -1,30 +1,43 @@
-let $slider = $('.slider');
-let $slide = 'li';
-let $transition_time = 1000;
-let $time_between_slides = 4000;
+$(document).ready(function(){
+  $('.slider').slick({
+	  autoplay: true,
+	  infinite: true,
+	  speed: 300,
+	  slidesToShow: 1,
+	  adaptiveHeight: true,
+	  accessibility: true,
+	  arrows: true,
+	  variableWidth: false
+  });
+});
 
-function slides() {
-	return $slider.find($slide);
-}
+// let $slider = $('.slider');
+// let $slide = 'li';
+// let $transition_time = 1000;
+// let $time_between_slides = 4000;
 
-slides().fadeOut();
+// function slides() {
+// 	return $slider.find($slide);
+// }
 
-slides().first().addClass('active');
-slides().first().fadeIn($transition_time);
+// slides().fadeOut();
 
-$interval = setInterval(
-	function() {
-		let $i = $slider.find($slide + '.active').index();
+// slides().first().addClass('active');
+// slides().first().fadeIn($transition_time);
 
-		slides().eq($i).removeClass('active');
-		slides().eq($i).fadeOut($transition_time);
+// $interval = setInterval(
+// 	function() {
+// 		let $i = $slider.find($slide + '.active').index();
 
-		if (slides().length == $i + 1) {
-			$i = -1;
-		}
+// 		slides().eq($i).removeClass('active');
+// 		slides().eq($i).fadeOut($transition_time);
 
-		slides().eq($i + 1).fadeIn($transition_time);
-		slides().eq($i + 1).addClass('active');
-	}
-	, $transition_time + $time_between_slides
-);
+// 		if (slides().length == $i + 1) {
+// 			$i = -1;
+// 		}
+
+// 		slides().eq($i + 1).fadeIn($transition_time);
+// 		slides().eq($i + 1).addClass('active');
+// 	}
+// 	, $transition_time + $time_between_slides
+// );

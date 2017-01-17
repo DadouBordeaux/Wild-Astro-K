@@ -5,81 +5,93 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 	<meta name="description" content="Wild Astro..." />
 	<link href="styles/stylesheet.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="scripts/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css"/>
 	<link rel="icon" type="image/x-icon" href="medias/favicon.ico" />
 	<title>Wild Astro</title>
 </head>
 <body>
+	<div id="bloc_page">
+<!--Thomas-->
+		<header>
+			<div id="logo">
+				<div id= "logoImg"><a href="accueil"><img src="medias/imgsite/milky-way logo.png" height="40px"></a></div>
+				<div id="logoTxt">Wild Astronautes</div>
+			</div>
 
-	<header>
+			<nav id="main-menu">
+				<ul>
+					<li class= "menuItem"><a href="#">Accueil</a></li>
+					<li class= "menuItem"><a href="#">Articles</a></li>
+					<li class= "menuItem"><a href="#">Qui sommes nous ?</a></li>
+				</ul>
+			</nav>
+		</header>
 
-		<div id="logo">
-			Wild Astronautes
-		</div>
-
-		<nav id="main-menu">
-			<ul>
-				<li>Accueil</li>
-				<li>Articles</li>
-				<li>Qui sommes nous ?</li>
-			</ul>
-		</nav>
-
-	</header>
-
-	<div id="content">
-		<div id="slider-wrap">
-			<ul class="slider">
-				<li>
-					<img src="medias/slider/constellations-1853915_1920.jpg" alt="constellations" />
-				</li>
-				<li>
-					<img src="medias/slider/wallpaper-space.jpg" alt="space" />
-				</li>
-				<li>
-					<img src="medias/slider/moon-1817885_1920.jpg" alt="moon" />
-				</li>
-			</ul>
-		</div>
-
-		<div id="article-asso">
-
-			<section id="latest-posts">
-				<div id="titlelastpost">
-					<h2>Le dernier article publié</h2>
-				</div>
-
-				<div id="resume">
-					<p>la terre vu de l'espace est clairement identifiable<button type="button" name="enlirepluslastarticle">En lire plus</button>
-					</p>
-				</div>
-
-			</section>
-			<div id="barre-milieu">
+		<div id="content"> <!--Attention !-->
+<!--Jerem-->
+			<div id="slider-wrap">
+					<div class="slider">
+						<div>
+							<img src="medias/slider/constellations-1853915_1920.jpg" alt="constellations" />
+						</div>
+						<div>
+							<img src="medias/slider/andromeda-galaxy-619797_1920.jpg" alt="andromeda galaxy" />
+						</div>
+						<div>
+							<img src="medias/slider/moon-1817885_1920.jpg" alt="moon" />
+						</div>
+					</div>
+			</div>
+<!--Damien-->
+			<div id="separation-slider">
 
 			</div>
-			<aside id="asso">
-				<h2>Les wild Astronautes</h2>
-				<p>Les Wild astronautes est une association Bordelaise de passionés d'astronomie</p>
-				<p>Créee en 2006, elle compte de nombreux membres qui échangent régulièrement</p>
-				<p>De nombreux événements d'observation collectives et de découverte en groupes sont organisés !</p>
-				<p>Si vous êtes aussi passionés d'astronomie ou que vous souahitez vous initier à celle-ci, n'hésitez pas à vous renseigner
-				sur notre association et à nous rejoindre, tout les nouveaux membres sont les bienvenus !</p>
-				<button type="button" name="plus-d-info">Plus d'informations</button>
-			</aside>
 
-		</div>
+			<div id="article-asso">
 
+				<section id="latest-posts">
+					<div id="titlelastpost">
+						<h2>Le dernier article publié</h2>
+					</div>
+
+					<div id="resume">
+						<p>la terre vu de l'espace est clairement identifiable<button type="button" name="enlirepluslastarticle">En lire plus</button>
+						</p>
+					</div>
+
+				</section>
+				<div id="barre-milieu">
+
+				</div>
+				<aside id="asso">
+					<h2>Les wild Astronautes</h2>
+					<p>Les Wild astronautes est une association Bordelaise de passionés d'astronomie</p>
+					<p>Créee en 2006, elle compte de nombreux membres qui échangent régulièrement</p>
+					<p>De nombreux événements d'observation collectives et de découverte en groupes sont organisés !</p>
+					<p>Si vous êtes aussi passionés d'astronomie ou que vous souahitez vous initier à celle-ci, n'hésitez pas à vous renseigner
+						sur notre association et à nous rejoindre, tout les nouveaux membres sont les bienvenus !</p>
+						<button type="button" name="plus-d-info">Plus d'informations</button>
+					</aside>
+
+				</div>
+
+			</div>
+<!--JC-->
+			<footer>
+
+				<div id="footer"><h2>Wild Astronauts</h2></div>
+				<div id="footer"><a href="#"><p>Mentions légales</p></a></div>
+				<div id="footer"><a href="#"><p>CGU</p></a></div>
+
+
+			</footer>
+
+			<script type="text/javascript" src="scripts/jquery.js"></script>
+			<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+			<script type="text/javascript" src="scripts/javascript.js" ></script>
 	</div>
 
-	<footer>
-		<div class="test">
-
-		</div>
-
-	</footer>
-
-	<script type="text/javascript" src="scripts/jquery.js"></script>
-	<script type="text/javascript" src="scripts/javascript.js" ></script>
 
 </body>
 </html>
