@@ -69,9 +69,8 @@ header {
 	justify-content: space-around;
 	width: 100%;
 	max-height: 40px;
-	background-color: white;
-
-	color: black;
+	background-image: url("../medias/imgsite/headerPhoto.png");
+	background-position: bottom;
 
 }
 
@@ -116,32 +115,7 @@ header {
 }
 
 
-header {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	height: 40px;
-	background-color: black;
-	color: white;
-}
 
-#logo {
-	width: 200px;
-}
-
-#main-menu {
-	width: 400px;
-}
-
-#main-menu ul {
-	margin: 0;
-	padding: 0;
-}
-
-#main-menu li {
-	list-style-type: none;
-	display: inline-block;
-}
 
 
 
@@ -183,7 +157,6 @@ header {
 #article-asso {
 	display: flex;
 	min-height: 300px;
-
 	background-position: bottom;
 }
 
@@ -264,13 +237,13 @@ article {
 
 
 footer {
-	background-image: url("../medias/imgsite/andromeda-galaxy-619797_1920.jpg");
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	line-height: 50%;
 	width: 100%;
 	height: 100px;
+	background-color: rgba(20, 20, 20, 1)
 }
 
 #footer{
