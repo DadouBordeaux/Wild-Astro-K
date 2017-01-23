@@ -35,7 +35,8 @@ a {
 }
 
 a:hover {
-
+	text-shadow: 0px 0px 2px;
+	transition: 0.2s;
 }
 
  ul {
@@ -89,7 +90,6 @@ header {
 }
 
 #main-menu li {
-	list-style-type: none;
 	display: flex;
 	flex-direction: column;
 	line-height: 40px;
@@ -249,4 +249,98 @@ footer {
 #footer{
 	border-right: 5px white;
 	margin-top: 10px;
+}
+
+
+
+/*============Article===========*/
+
+
+#imgIntro  {
+	height:350px;
+	width: 100%;
+	background: url("../ressources/photos/milky-way-923801_1280.jpg");
+}
+#imgIntro1  {
+	height:350px;
+	width: 100%;
+	background: url("../medias/slider/andromeda-galaxy-619797_1920.jpg");
+}
+#imgIntro2  {
+	height:350px;
+	width: 100%;
+	background: url("../medias/slider/constellations-1853915_1920.jpg");
+}
+
+#imgIntro3  {
+	height:350px;
+	width: 100%;
+	background: url("../medias/slider/moon-1817885_1920.jpg");
+}
+
+
+
+
+#descArticle {
+	height:100%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.2em;
+
+}
+
+#titreArticle {
+	font-size: 1.5em;
+	max-width: 300px;
+}
+
+#ariane {
+	color: white;
+	margin-left: 20px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+#articleBody {
+	color: black;
+	background-color: white;
+	width: 85%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#infoArticle {
+	background-color: #F6EBD7;
+	font-size: 0.9em;
+	color: rgb(50, 50, 50);
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+	height: 40px;
+	font-weight: bold;
+	align-items: center;
+	font-style: italic;
+	-moz-box-shadow: 5px 5px 2px 0px #c0c0c0;
+	-webkit-box-shadow: 5px 5px 2px 0px #c0c0c0;
+	-o-box-shadow: 5px 5px 2px 0px #c0c0c0;
+	box-shadow: 5px 5px 2px 0px #c0c0c0;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#c0c0c0, Direction=134, Strength=2);
+
+
+}
+
+#corpsArticle {
+	width: 90%;
+	margin-top: 30px;
+	font-size: 1.1em;
 }
